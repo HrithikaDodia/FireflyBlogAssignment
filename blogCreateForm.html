@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Firefly Blog</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+
+    <body>
+
+        <nav>
+            <ul>
+                <li><div class="site">Firefly Blog</div></li>
+                <li style="margin-left: 250px; color: aqua"><a href="home.html">Home Page</a></li>
+            </ul>
+        </nav>
+
+        <div class="blog-form-component">
+            <div class="blog-title">Create Blog</div>
+            <form id="blog-create-form">
+                <label for="title">Title</label>
+                <input type="text" id="title"><br>
+                <label for="content">Content</label><br>
+                <textarea name="" id="content" cols="80" rows="10"></textarea><br>
+                <button>Submit</button>
+            </form>
+        </div>
+        
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+        
+        <script src="fireBase.js"></script>
+        <script src="blogCreate.js"></script>
+    </body>
+</html>

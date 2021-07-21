@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Firefly Blog</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><div class="site">Firefly Blog</div></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li id="create-blog"><a href="blogCreateForm.html">Create Blog</a></li>
+                <div id="logout"><li><a href="#">Logout</a></li></div>
+            </ul>
+        </nav>
+
+        <div class="home-component">
+        
+            <div class="blogs-component">
+            </div>
+
+            <div class="search-component">
+                <form id="search-form">
+                    <input type="text" id="search-text" placeholder="Search Title">
+                    <button id="search-submit">Search</button>
+                </form>
+            </div>
+
+        </div>
+
+        <script src="https://cdn.firebase.com/js/client/8.7.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+
+        <script src="fireBase.js"></script>
+        <script src="logout.js"></script>
+        <script src="getBlogs.js"></script>
+        <script src="checkHomeAuth.js"></script>
+        <script src="search.js"></script>
+    </body>
+
+
+    </body>
+</html>

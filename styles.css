@@ -1,0 +1,154 @@
+body{
+    font-family: Fira Code;
+    background-color: lightgray;
+}
+
+nav ul{
+    display: flex;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav li{
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.site{
+    margin-right: 700px;
+    font-size: 30px;
+}
+
+.blogs-component{
+    width: 700px;
+    margin-left: 100px;
+}
+
+.blogs-component .blog{
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+.blogs-component .blog .title{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.blogs-component .blog .author{
+    color:lightsalmon;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.blogs-component .blog .content{
+    color: grey;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.form-component{
+    margin-left: 550px;
+    margin-top: 100px;
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+    height: 450px;
+}
+
+input{
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    font-family: Fira Code;
+    font-size: 15px;
+}
+
+button{
+    background-color: black;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    font-family: Fira Code;
+    font-size: 16px;
+    width: 100%;
+}
+
+.blog-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.signup-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 450;
+    padding-bottom: 50px;
+}
+
+.signup-link{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+#google-btn{
+    background-color: lightsalmon;
+}
+
+.blog-form-component{
+    margin-left: 400px;
+    margin-top: 100px;
+    background-color: white;
+    width: 600px;
+    padding: 50px;
+    height: 450px;
+}
+
+textarea{
+    width: 100%;
+    border: 2px solid aqua;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-family: Fira Code;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#search-form{
+    display: flex;
+    width: 500px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+#search-submit{
+    font-size: 15px;
+    width: 120px;
+    background-color: black;
+    height: 41px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.home-component{
+    display: flex;
+}
